@@ -1,0 +1,31 @@
+body {
+    background-color: burlywood;
+    margin: 10px auto;
+    width: 750px;
+}
+
+header, nav, section, footer, topnav {
+    display: block;
+    border: 1px solid saddlebrown;
+}
+
+header{
+    height: 120px;
+}
+
+nav{
+    float: left;
+    width: 200px;
+    height: 370px;
+}
+
+section{
+    margin-left: 200px;
+    width: 500; 
+    height: 370px;
+}
+
+footer{
+    clear: both;
+    height: 20px;
+}

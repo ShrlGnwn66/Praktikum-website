@@ -1,0 +1,20 @@
+body {
+    background-image: url("IMAGE.JPG");
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    background-color: navy;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+    color: navy;
+    background-color: yellow;
+}
+
+div {
+    background-color: white;
+}

@@ -1,0 +1,32 @@
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(bg.jpg);
+    overflow: hidden;
+}
+
+.form {
+    background: #fff;
+    width: 300px;
+    margin: 100px auto;
+    padding: 50px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #646161;
+    margin: 10px 0;
+}
+
+.form button {
+    background: #007ee5;
+    width: 100%;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0;
+}

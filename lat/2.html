@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial- scale=1.0">
+        <title>KostKita.com</title>
+        <link rel="stylesheet" href="1.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Oswald:wght@200&family=Share+Tech+Mono&family=VT323&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html">
+                    <img src="logo.png">
+                </a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.php">HOME</a></li>
+                        <li><a href="2.html">KAMAR</a></li>
+                        <li><a href="3.html">MAPS</a></li>
+                        <li><a href="login.php">PROFIL</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="text-box">
+                <h1>Pilihan Kamar</h1>
+                <p>Kami menyediakan penginapan untuk mahasiswa Politeknik Negeri Jember dengan lokasi yang dekat dengan kampus Polije. Terdapat berbagai ppilihan kamar yang kami sediakan seperti dibawah ini.
+                </p>
+                <a href="#signup" class="hero-btn">Visit Us To Know More</a>
+            </div>
+        </section>
+
+        <!--- javascript for Toggle Menu-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+<!---- How it works -->
+<section class="promotion">
+    <h1>Pilihan Kamar</h1>
+    <p>Setiap kamar memiliki bentuk yang berbeda untuk menyesuaikan kebutuhan pelanggan.</p>
+
+    <div class="row">
+        <div class="promo-col">
+            <h3><u>Kamar A</u></h3>
+            <a href="KamarA.html"><img src="KAMA.jpg"></a>
+            <p>Kamar ini memiliki ukuran standar yaitu 3x3 meter. Sebuah ukuran yang pas dan nyaman.<a href="KamarA.html">Baca lebih lengkap..</a></p>
+        </div>
+
+        <div class="promo-col">
+            <h3><u>Kamar B</u></h3>
+            <a href="KamarB.html"><img src="KAMB.jpg"></a>
+            <p>Ukuran kamar ini sama seperti Kamar A, yaitu 3x3 meter. Namun pada kamar ini memiliki meja dan kursi untuk memudahkan keperluan pelanggan.<a href="KamarB.html">Baca lebih lengkap..</a></p>
+        </div>
+
+        <div class="promo-col">
+            <h3><u>Kamar C</u></h3>
+            <a href="KamarC.html"><img src="KAMC.jpg"></a>
+            <p>Kamar ini memiliki ukuran yang cukup luas, yaitu 4x3 meter. Cocok bagi calon pelanggan yang membutuhkan ruang lebih atau untuk yang membutuhkan dua kasur. <a href="KamarC.html">Baca lebih lengkap..</a></p>
+        </div>
+     </div>
+</section>
+
+
+<!---- Footer ---->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Website ini dibuat untuk memenuhi Tugas Akhir Pemrograman Web. <br> Jangan lupa ikuti kami ya!</p>
+            <div class="icons">
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Kelompok 5</p>
+        </section>
+    </body>
+</html>

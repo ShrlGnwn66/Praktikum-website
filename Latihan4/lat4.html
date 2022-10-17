@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form Registrasi</title>
+    </head>
+
+    <body>
+        <h3>Formulir Pendaftaran</h3>
+        <form action="" method="post">
+            <table border=0>
+                <tr>
+                    <td>NIK</td>
+                    <td><input type="text" placeholder="masukkan nomor KTP anda" required/></td>
+                </tr>
+                <tr>
+                    <td>Nama</td>
+                    <td><input type="text" placeholder="masukkan nama anda" required/></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>
+                        <input type="radio" name="jenis_kelamin" value="laki-laki"/> Laki-laki
+                        <input type="radio" name="jenis_kelamin" value="perempuan"/> Perempuan
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tanggal Lahir</td>
+                    <td>
+                        <input type="date">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Agama</td>
+                    <td>
+                        <select name="agama">
+                            <option>Islam</option>
+                            <option>Protestan</option>
+                            <option>Katolik</option>
+                            <option>Hindu</option>
+                            <option>Budha</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Hobi</td>
+                    <td>
+                        <input type="checkbox" name="web"> Membaca
+                        <input type="checkbox" name="mobile"> Mendaki
+                        <input type="checkbox" name="desk"> Olahraga
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Submit" />
+                        <input type="submit" value="Cancel" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

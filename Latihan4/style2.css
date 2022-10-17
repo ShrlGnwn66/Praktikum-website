@@ -1,0 +1,64 @@
+body {
+    background-color: aquamarine;
+}
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+p.satu {
+    border-radius: 0px;
+    width: 1340px;
+    height: 55px;
+    border: 3px solid red;
+    padding-left: 5px;
+}
+
+p.dua {
+    border-radius: 10px;
+    width: 1340px;
+    height: 55px;
+    border: 3px solid red;
+    padding-left: 5px;
+}
+
+p.tiga {
+    border-radius: 50px;
+    width: 1340px;
+    height: 40px;
+    border: 3px solid red;
+    padding-left: 5px;
+}
+
+p.empat {
+    border-radius: 50px;
+    width: 1340px;
+    height: 70px;
+    border: 3px solid red;
+    padding-left: 5px;
+}
+
+p.lima {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 0px;
+    width: 1340px;
+    height: 55px;
+    border: 3px solid red;
+    padding-left: 5px;
+}
+
+p.enam {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 15px;
+    width: 1340px;
+    height: 55px;
+    border: 3px solid red;
+    padding-left: 5px;
+}

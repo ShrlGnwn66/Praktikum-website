@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+   }
+   
+   body{
+    background-color: #646161;
+    overflow: hidden;
+   }
+   
+   div.wrapper{
+    background: #ffffff;
+    width: 390px;
+    margin: 100px auto;
+    border-radius: 16px;
+    min-height: 256px;
+    overflow: hidden;
+   }
+   
+   div.wrapper-header{
+    background: #007ee5;
+    padding: 10px 22px;
+    height: 60px;
+   }
+   
+   div.wrapper-header h2.title{
+    color: #fff;
+    font-weight: normal;
+    line-height: 40px;
+    display: inline-block;
+   }
+   
+   div.icon{
+    margin-top: 6px;
+    float: left;
+    margin-right: 10px;
+    color: #fff;
+   }
+   
+   
+   div.wrapper-main{
+    padding:10px 22px 0;
+    color: #808080;
+   }
+   
+   div.wrapper-main div.group{
+    margin: 16px 0;
+   }
+   
+   div.wrapper-main div.group label,
+   div.wrapper-main div.group input{
+    display: block;
+   }
+   
+   div.wrapper-main div.group label{
+    font-size: 13px;
+    margin-bottom: 10px;
+   }
+   
+   div.wrapper-main div.group input[type="text"],
+   div.wrapper-main div.group input[type="password"]{
+    width: 100%;
+    height: 30px;
+    padding: 0 10px;
+    background: #eeeeee;
+    border:none;
+    color: #808080;
+   }
+   
+   div.wrapper-main div.group input[type="submit"]{
+    background: #007ee5;
+    padding: 6px 18px;
+    margin: 0 auto;
+    border: 1px solid #007ee5;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+   }
+   
+   div.wrapper-main div.group input[type="submit"]:hover{
+    background: #0077B5;
+    border: 1px solid #0077B5;
+   }
+   
+   div.wrapper-main div.group input[type="reset"] {
+    background: #dd4b39;
+    padding: 6px 18px;
+    margin: 0 auto;
+    border: 1px solid #dd4b39;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+   }
+   
+   div.wrapper-main div.group input[type="reset"]:hover{
+    background: #df2029;
+    border: 1px solid #df2029;
+   }
+   
+   div.wrapper-main div.group .btn {
+    background: #dd4b39;
+    padding: 8px 18px;
+    margin: 0 auto;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 12px;
+   }
+   
+   div.wrapper-main div.group .btn:hover{
+    background: #df2029;
+   }
+   

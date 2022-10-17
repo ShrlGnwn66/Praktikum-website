@@ -1,0 +1,121 @@
+body {
+	font-family: Arial;
+	background-color: rgb(165, 121, 1);
+	margin: 8px auto;
+	width: 1000px;
+}
+
+header {
+	height: 130px;
+	text-align: center;
+	background-color: #0cb10c;
+}
+
+img.logo {
+    float: left;
+    width: 120px;
+}
+
+img.tengah {
+    display: block;
+    margin: auto;
+}
+
+img.berita1 {
+    float: left;
+    padding-left: 2px;
+    padding-right: 5px;
+    width: 380px;
+}
+
+img.berita2 {
+    float: left;
+    padding-top: 9px;
+    padding-left: 2px;
+    padding-right: 5px;
+    width: 380px;
+}
+
+img.berita3 {
+    float: left;
+    padding-left: 2px;
+    padding-top: 20px;
+    padding-right: 5px;
+    width: 380px;
+}
+
+.navbar {
+    font-weight: bold;
+    display: flex;
+    background-color: rgb(252 185 0);
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.navbar ul li.utama {
+    display: inline-table;
+}
+  
+.navbar ul li :hover {
+    background-color: #008000;
+}
+  
+.navbar ul li a {
+    display: block;
+    text-decoration: none;
+    line-height: 40px;
+    padding: 0 10px;
+  }
+  
+.utama ul {
+    display: none;
+    position: absolute;
+    z-index: 2;
+}
+  
+.utama:hover ul {
+    display: block;
+}
+  
+.utama ul li {
+    display: block;
+    background-color: #008000;
+    width: 140px;
+}
+
+/* Membuat konten menjadi dua kolom */
+.column {
+    float: left;
+    padding: 0px;
+}
+
+/* Kolom kiri */
+.column.left {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 5px;
+    width: 800px;
+    height: 905px;
+    text-align: justify;
+    background-color: #f1f1f1b2;
+}
+
+/* Kolom kanan */
+.column.right {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 195px;
+    height: 905px;
+    text-align: center;
+    background-color: #f1f1f1b2;
+}
+
+
+footer {
+    clear: both;
+    height: 20px;
+    text-align: center;
+    background-color: rgb(252 185 0);
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial- scale=1.0">
+        <title>KostKita.com</title>
+        <link rel="stylesheet" href="1.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Oswald:wght@200&family=Share+Tech+Mono&family=VT323&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html">
+                    <img src="logo.png">
+                </a> 
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.php">HOME</a></li>
+                        <li><a href="2.html">KAMAR</a></li>
+                        <li><a href="3.html">MAPS</a></li>
+                        <li><a href="login.php">PROFIL</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <!-- <div class="maps-header">
+            <h1>Alamat Kami</h1>
+			<!-- <hr> -->
+            </div> -->
+            <div class="maps-peta">
+                <!-- <hr> -->
+                <br>
+                <center>
+			    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d493.68006107245844!2d113.717627!3d-8.158297!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5fdc8f039c3c9026!2sKost%20Putri%20Pak%20Sung!5e0!3m2!1sid!2sid!4v1652680487816!5m2!1sid!2sid" width="1200" height="450" style="border:10;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </center>
+            </div>
+            <br>
+        </section>
+
+        <!--- javascript for Toggle Menu-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+         <!---- Footer ---->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Website ini dibuat untuk memenuhi Tugas Akhir Pemrograman Web. <br> Jangan lupa ikuti kami ya!</p>
+        <div class="icons">
+            <a href="https://instagram.com/shrlgn05/">
+                <i class="fa fa-instagram"></i>
+            </a>
+            <a href="https://wa.me/6285336282458">
+                <i class="fa fa-whatsapp"></i>
+            </a>
+            <a href="https://twitter.com/mutyarapertiwi">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Kelompok 5</p>
+    </section> 
+</body>
+
+</html>

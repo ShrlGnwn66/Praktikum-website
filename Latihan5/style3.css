@@ -1,0 +1,52 @@
+body {
+    background-color: burlywood;
+    margin: 10px auto;
+    width: 750px;
+}
+
+header {
+    height: 120px;
+    background-color: wheat;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: saddlebrown;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: wheat;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: wheat;
+    color: saddlebrown;
+}
+
+/* Membuat konten menjadi dua kolom */
+.column {
+    float: left;
+    padding: 0px;
+}
+
+/* Kolom kanan dan kiri */
+.column.side {
+    width: 25%;
+    background-color: wheat;
+}
+
+/* Kolom tengah */
+.column.middle {
+    width: 50%;
+}
+
+footer {
+    clear: both;
+    height: 20px;
+    background-color: wheat;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form Registrasi</title>
+    </head>
+
+    <body>
+        <h3>Formulir Pendaftaran</h3>
+        <form action="" method="post">
+            <fieldset>
+                <legend>Silahkan isi form dibawah ini</legend>
+                <table border=0>
+                    <tr>
+                        <td>NIK</td>
+                        <td><input type="text" placeholder="masukkan nomor KTP anda" pattern="[0-9]{16}" maxlength="16" title="Masukkan angka 16 digit" style="width: 200px;" required/></td>
+                    </tr>
+                    <tr>
+                        <td>Nama</td>
+                        <td><input type="text" placeholder="masukkan nama anda" style="width: 200px;" required/></td>
+                    </tr>
+                    <tr>
+                        <td>Jenis Kelamin</td>
+                        <td>
+                            <input type="radio" name="jenis_kelamin" value="laki-laki"/> Laki-laki
+                            <input type="radio" name="jenis_kelamin" value="perempuan"/> Perempuan
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Tanggal Lahir</td>
+                        <td>
+                            <input type="date" max="2005-03-01" style="width: 200px;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Agama</td>
+                        <td>
+                            <select name="agama" style="width: 207px;">
+                                <option>Islam</option>
+                                <option>Protestan</option>
+                                <option>Katolik</option>
+                                <option>Hindu</option>
+                                <option>Budha</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Tinggi badan</td>
+                        <td>
+                            <input type="number" name="tinggi-badan" min="130" max="210" style="width: 200px;" placeholder="Masukkan tinggi badan anda">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Hobi</td>
+                        <td>
+                            <input type="checkbox" name="web"> Membaca
+                            <input type="checkbox" name="mobile"> Mendaki
+                            <input type="checkbox" name="desk"> Olahraga
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Telepon</td>
+                        <td>
+                            <input type="telp" name="telepon" pattern="[0][8][0-9]{11,13}" maxlength="13" placeholder="08xxxxxxxxxxx" style="width: 200px;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>
+                            <input type="email" name="email" placeholder="emailanda@gmail.com" title="Masukkan email anda" style="width: 200px;" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Alamat lengkap</td>
+                        <td>
+                            <textarea name="alamat_lengkap" cols="25" rows="5"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Username</td>
+                        <td>
+                            <input type="text" name="username" minlength="5" maxlength="13" style="width: 200px;" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td>
+                            <input type="password" name="password" style="width: 200px;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" value="Submit" />
+                            <input type="submit" value="Cancel" />
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </body>
+</html>
